@@ -1,0 +1,795 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .price_plan_section .container,
+    .faq_section .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .footer_wrapper::before {
+        top: -120px;
+        width: 100%;
+        height: 250px;
+    }
+    .footer_wrapper {
+        padding-top: 230px;
+    }
+    .common_signup_signin .signup_section {
+        width: 100%;
+    }
+    .common_signup_signin .main_content {
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1800px) {}
+
+@media (max-width: 1600px) {
+    .documentation_section {
+        margin-bottom: -125px;
+    }
+    .doc_common_content_wrap {
+        padding: 50px 80px 200px;
+    }
+    .price_shape_green {
+        bottom: -130px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .documentation_section {
+        margin-bottom: -120px;
+    }
+    .price_shape_green {
+        bottom: -115px;
+    }
+    .ng_image_block img,
+    .future_nut_img_block img,
+    .ucd_banner_img img {
+        max-width: 100%;
+    }
+    .ucd_banner_img {
+        right: 0;
+    }
+}
+
+@media (max-width: 1360px) {
+    .fn_line_box3 {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .home_banner_title h1 {
+        font-size: 62px;
+    }
+    .home_banner_section::before {
+        height: 530px;
+    }
+    .the_best_and_content {
+        padding-top: 0px;
+    }
+    .eaditor_image img {
+        max-width: 100%;
+    }
+    .documentation_section {
+        margin-bottom: -112px;
+    }
+    .price_shape_green {
+        bottom: -85px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .home_banner_content {
+        max-width: 55%;
+    }
+    .home_banner_title h1 {
+        font-size: 52px;
+    }
+    .home_banner_img {
+        max-width: 40%;
+    }
+    .home_banner_section::before {
+        height: 460px;
+    }
+    .signup_btn_block {
+        margin-left: 50px;
+    }
+    .menu_block ul li {
+        margin-right: 50px;
+    }
+    .home_banner_section {
+        padding: 180px 0 100px;
+    }
+    .tools_stack_block ul {
+        padding-right: 0;
+        margin: 0 -15px;
+    }
+    .tools_stack_block ul li {
+        padding: 0 15px;
+    }
+    .multi_service_left {
+        width: 525px;
+        padding-right: 50px;
+    }
+    .content_image_block {
+        width: calc(100% - 525px);
+    }
+    .multi_service_left .content_block {
+        padding-top: 30px;
+    }
+    .multi_service_section .section_common_title h2 {
+        font-size: 34px;
+    }
+    .signup_col_left {
+        width: calc(100% - 450px);
+    }
+    .signup_col_right {
+        width: 450px;
+    }
+    .signup_content_block {
+        max-width: 440px;
+    }
+    .header_inner_wrap {
+        padding: 30px;
+    }
+    .doc_common_content_wrap {
+        padding: 50px 30px 150px;
+    }
+    .price_plan_block .row>* {
+        padding: 0 15px;
+    }
+    .price_plan_block .row {
+        margin: 0 -15px;
+    }
+    .price_plan_box {
+        padding: 20px;
+    }
+    .price_common_label p span {
+        margin-left: 1px;
+    }
+    .price_shape_green {
+        bottom: -70px;
+    }
+    .uc_discover_img {
+        min-height: 180px;
+        max-height: 180px;
+    }
+    .uc_discover_img::before {
+        bottom: -75px;
+    }
+    .ucd_banner_btn {
+        margin-top: 60px;
+    }
+    .next_generation_section {
+        padding: 70px 0;
+    }
+    .uc_common_desc h1 {
+        font-size: 35px;
+    }
+    .uc_common_desc h2 {
+        font-size: 30px;
+    }
+    .uc_common_desc h3 {
+        font-size: 20px;
+    }
+    .uc_common_desc h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .documentation_section {
+        margin-bottom: -100px;
+    }
+    .price_plan_section {
+        margin-top: -70px;
+    }
+    .price_common_title h3 img {
+        top: -12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo_hold {
+        position: relative;
+        z-index: 110;
+    }
+    .home_banner_section {
+        padding: 150px 0 100px;
+        display: flex;
+        flex-flow: column;
+    }
+    .home_banner_content {
+        max-width: 100%;
+    }
+    .home_banner_img {
+        max-width: 720px;
+        text-align: center;
+        margin: 0px auto 35px;
+        order: -1;
+        position: relative;
+        top: unset;
+        padding: 0 15px;
+        width: 100%;
+    }
+    .home_banner_content .common_desc {
+        max-width: 100%;
+        padding: 30px 0;
+    }
+    .menu_toggle_btn {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        position: relative;
+        z-index: 102;
+    }
+    .menu_wrapper {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        visibility: hidden;
+        width: 100%;
+        height: 100%;
+        background-color: #f4fdf9;
+        opacity: 0;
+        z-index: 100;
+        transition: all 0.4s ease 0s;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .open_menu .menu_wrapper {
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu_block ul li {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        display: block;
+    }
+    .menu_block ul li+li {
+        margin-top: 20px;
+    }
+    .signup_btn_block {
+        margin: 25px 0 0;
+    }
+    .backed_by_block .common_desc p:nth-child(1),
+    .backed_by_block .common_desc p:nth-child(2) {
+        max-width: 50%;
+    }
+    .backed_by_block .common_desc p:nth-child(2) {
+        margin-left: 15px;
+    }
+    .the_best_and_content .common_desc {
+        max-width: 100%;
+    }
+    .tools_stack_block {
+        padding: 50px 0 40px;
+    }
+    .the_best_and_content .common_desc {
+        margin: 20px 0;
+    }
+    .the_best_and_section {
+        padding: 100px 0;
+    }
+    .eaditor_image {
+        text-align: center;
+    }
+    .multi_service_left {
+        padding-right: 0;
+        width: 100%;
+    }
+    .content_image_block {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .multi_service_slider_outer {
+        flex-wrap: wrap;
+    }
+    .multi_service_titles p.info {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    .content_image_block .slider_image {
+        height: 400px;
+    }
+    .signup_col_left {
+        width: 100%
+    }
+    .signup_col_right {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .signup_content_block {
+        max-width: 100%
+    }
+    .signup_section {
+        padding: 50px 0 0;
+    }
+    .documentation_section {
+        margin-bottom: -90px;
+    }
+    .price_hero_banner_section {
+        padding: 130px 0 120px;
+    }
+    .price_plan_box {
+        margin-bottom: 30px;
+    }
+    .price_plan_block .row {
+        justify-content: center;
+    }
+    .price_banner_content h1 {
+        font-size: 35px;
+    }
+    .price_shape_green {
+        bottom: -80px;
+    }
+    .price_plan_section {
+        padding-bottom: 70px;
+        margin-top: -30px;
+    }
+    .accordion_box .accordion-button.collapsed,
+    .accordion_box .accordion-button {
+        padding: 15px;
+    }
+    .accordion-body {
+        padding: 0 15px 15px;
+    }
+    .uc_discover_block .row>* {
+        padding: 0 15px;
+    }
+    .uc_discover_block .row {
+        margin: 0 -15px;
+    }
+    .uc_discover_content {
+        padding: 20px 15px;
+    }
+    .uc_discover_img {
+        min-height: 140px;
+        max-height: 140px;
+    }
+    .ucd_banner_img {
+        margin-top: 30px;
+    }
+    .ng_image_block {
+        margin-top: 30px;
+    }
+    .ng_desc,
+    .ucd_banner_content .uc_common_desc,
+    .uc_home_banner_content,
+    .future_nutrition_content .common_desc {
+        max-width: 100%;
+    }
+    .future_nutrition_content .common_desc {
+        margin: 10px 0 30px;
+    }
+    .future_nutr_line_box {
+        margin-bottom: 50px;
+    }
+    .future_nut_img_block {
+        text-align: center;
+    }
+    .ei_order {
+        order: 2;
+    }
+    .easy_integration_content {
+        text-align: left;
+    }
+    .easy_integration_content .common_desc {
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+    .easy_integration_img {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .ucd_banner_btn {
+        margin-top: 40px;
+    }
+    .ng_desc {
+        margin-bottom: 35px;
+    }
+    .easy_integration_img img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .home_banner_img {
+        max-width: 540px;
+    }
+    .home_banner_title h1 {
+        font-size: 40px;
+    }
+    .home_banner_content .common_desc p {
+        font-size: 16px;
+    }
+    .home_banner_content .common_desc {
+        padding: 20px 0;
+    }
+    header {
+        padding-top: 20px;
+    }
+    .home_banner_section {
+        padding: 110px 0 70px;
+    }
+    .section_common_title h2 {
+        font-size: 30px;
+    }
+    .backed_by_block .common_desc p:nth-child(1),
+    .backed_by_block .common_desc p:nth-child(2) {
+        max-width: 100%;
+    }
+    .backed_by_block .common_desc {
+        flex-wrap: wrap;
+    }
+    .backed_by_block .common_desc p:nth-child(2) {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .backed_by_block .common_desc {
+        margin: 20px 0;
+    }
+    .multi_service_section .section_common_title h2 {
+        font-size: 30px;
+    }
+    .footer_col+.footer_col {
+        margin-left: 26px;
+    }
+    .footer_wrapper {
+        padding-top: 155px;
+        padding-bottom: 40px;
+    }
+    .footer_col ul li {
+        padding-bottom: 5px;
+    }
+    .multi_service_section {
+        padding: 100px 0 0;
+    }
+    .common_form_box {
+        padding: 25px;
+    }
+    .signup_block {
+        margin-bottom: -80px;
+    }
+    .docu_col_left {
+        position: fixed;
+        top: 80px;
+        left: -260px;
+        z-index: 100;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease 0s;
+        height: calc(100% - 80px);
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 30%);
+    }
+    .open_siderbar .docu_col_left {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .doc_sidebar_block::before {
+        display: none;
+    }
+    .docu_mobile_sidebar_trigger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .docu_col_right {
+        width: 100%;
+    }
+    .doc_common_title h1 {
+        font-size: 30px;
+    }
+    .doc_inner_common_title h3 {
+        font-size: 25px;
+    }
+    .doc_inner_sec_title h4 {
+        font-size: 18px;
+    }
+    .developer_content .common_desc p,
+    .app_code_info p,
+    .uc_common_desc p {
+        font-size: 16px;
+    }
+    .doc_common_content_wrap {
+        padding: 50px 20px 110px;
+    }
+    .header_inner_wrap {
+        padding: 20px;
+    }
+    .doc_sidebar_block {
+        overflow-y: auto;
+    }
+    .price_banner_content h1 {
+        font-size: 30px;
+    }
+    .price_plan_section {
+        padding-bottom: 30px;
+    }
+    .faq_accordion_block {
+        padding: 35px 0 0;
+    }
+    .faq_section {
+        padding-bottom: 0;
+    }
+    .faq_accordion_block .accordion .accordion-item {
+        padding: 0 15px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .faq_accordion_block .accordion {
+        margin: 0 -15px;
+    }
+    .use_case_page .home_banner_section::before {
+        height: 500px;
+    }
+    .use_case_page .home_banner_section {
+        padding: 120px 0;
+    }
+    .uc_discover_section {
+        margin: -80px 0 -140px;
+    }
+    .uc_discover_box {
+        margin-bottom: 30px;
+    }
+    .uc_discover_img {
+        min-height: 210px;
+        max-height: 210px;
+    }
+    .use_case_delivery_page .home_banner_section {
+        padding-top: 120px;
+    }
+    .fn_line_box1 {
+        padding-left: 40px;
+    }
+    .fn_line_box4 {
+        padding-left: 50px;
+    }
+    .fn_line_box2 {
+        padding-right: 20px;
+    }
+    .fn_line_box5 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .content_image_block .slider_image {
+        height: 300px;
+    }
+    .footer_block {
+        flex-wrap: wrap;
+    }
+    .footer_left {
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    .copyright {
+        padding-top: 30px;
+    }
+    .footer_col ul li a {
+        font-size: 14px;
+    }
+    .sup_common_title h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .signup_desc {
+        margin-top: 45px;
+    }
+    .signup_section,
+    .signin_section {
+        padding: 30px 0 0;
+    }
+    .common_input_filed {
+        margin-bottom: 15px;
+    }
+    .common_input_filed p {
+        margin-bottom: 10px;
+    }
+    .create_btn {
+        margin: 20px 0;
+    }
+    .show_passoword {
+        top: 46px;
+    }
+    .hi_btn_wrap a i {
+        display: inline-block;
+        margin: 0;
+    }
+    .hi_btn_wrap a span {
+        display: none;
+    }
+    .hi_btn_wrap .common_btn {
+        padding: 10px;
+        margin-left: 15px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .hi_btn_wrap>a {
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: -6px;
+        vertical-align: middle;
+    }
+    .header_inner_wrap {
+        padding: 20px 15px;
+    }
+    .doc_common_content_wrap {
+        padding: 50px 25px 80px;
+    }
+    .footer_wrapper .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .hi_logo_hold a {
+        font-size: 25px;
+    }
+    .app_code_info,
+    .doc_green_note {
+        padding: 15px;
+    }
+    .doc_delete_url_box {
+        padding-left: 120px;
+    }
+    .doc_delete_url_box {
+        margin: 40px 0 20px;
+    }
+    .curl_table_block {
+        padding-top: 40px;
+    }
+    .docu_col_left {
+        top: 77px;
+        height: calc(100% - 77px);
+    }
+    .price_shape_green {
+        bottom: -30px;
+    }
+    .price_banner_content p {
+        margin-bottom: 15px;
+    }
+    .price_hero_banner_section {
+        padding: 130px 0 80px;
+    }
+    .uc_discover_img {
+        min-height: auto;
+        max-height: 210px;
+        height: 200px;
+    }
+    .fn_line_box p {
+        padding: 12px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .price_shape_green {
+        bottom: -20px;
+    }
+    .fn_line_box2 {
+        padding-right: 0px;
+    }
+    .fn_line_box1 {
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .fn_line_box3 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .fn_line_box4 {
+        padding-left: 0px;
+        margin: 35px 0;
+    }
+    .easy_integration_img img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact_sale_btn {
+        margin-left: 20px;
+    }
+    .the_best_and_section {
+        padding: 70px 0;
+    }
+    .the_best_and_content .common_desc {
+        margin: 15px 0;
+    }
+    .multi_service_section {
+        padding: 70px 0 0;
+    }
+    .tools_stack_content .contact_sale_btn {
+        font-size: 14px;
+    }
+    .use_case_page .home_banner_section::before {
+        height: 580px;
+    }
+}
+
+@media (max-width: 367px) {
+    .home_banner_title h1 {
+        font-size: 35px;
+    }
+    .tools_stack_block ul li,
+    .ng_stack_block ul li {
+        width: 100%;
+    }
+    .tools_stack_block ul li+li,
+    .ng_stack_block ul li+li {
+        margin-top: 30px;
+    }
+    .footer_col+.footer_col {
+        margin-left: 13px;
+    }
+    .ng_stack_content .common_desc {
+        max-width: 100%;
+    }
+    .footer_col h3 {
+        font-size: 15px;
+    }
+    .footer_wrapper {
+        padding-top: 124px;
+    }
+    .forgot_password_label {
+        flex-wrap: wrap;
+    }
+    .forgot_password_label a {
+        width: 100%;
+    }
+    .show_passoword {
+        top: 75px;
+    }
+    .uc_discover_section {
+        margin-bottom: -100px;
+    }
+    .uc_discover_img img {
+        object-position: right;
+    }
+    .fn_line_box p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) and (min-height: 1000px) {
+    .signin_page .main_content,
+    .forgot_password_page .main_content {
+        min-height: 56vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signin_box {
+        width: 577px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) and (min-height: 1000px) {
+    .common_signup_signin .main_content {
+        min-height: 67vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .common_signup_signin .signup_section {
+        padding-top: 50px;
+    }
+    .signin_box {
+        width: 577px;
+    }
+}

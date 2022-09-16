@@ -1,0 +1,2110 @@
+                                    /*********************  Default-CSS  *********************/
+                                    
+                                     :root {
+                                        scroll-behavior: unset;
+                                    }
+                                    /*
+  font-family: SF-Pro-Regular;
+  font-family:  SF-Pro-Bold;
+  font-family:  SF-Pro-semi-Bold;
+*/
+                                    
+                                    @font-face {
+                                        font-family: SF-Pro-Regular;
+                                        src: url(../fonts/FontsFree-Net-SFProText-Regular.ttf);
+                                    }
+                                    
+                                    @font-face {
+                                        font-family: SF-Pro-semi-Bold;
+                                        src: url(../fonts/FontsFree-Net-SFProText-Semibold.ttf);
+                                    }
+                                    
+                                    @font-face {
+                                        font-family: SF-Pro-Bold;
+                                        src: url(../fonts/FontsFree-Net-SFProText-Bold.ttf);
+                                    }
+                                    
+                                    * {
+                                        box-sizing: border-box;
+                                        margin: 0;
+                                        padding: 0
+                                    }
+                                    
+                                    body {
+                                        margin: 0;
+                                        font-family: SF-Pro-Bold;
+                                        overflow-x: hidden;
+                                        color: #768391;
+                                        background-color: #fff;
+                                        font-size: 16px;
+                                        line-height: 1.3;
+                                        font-weight: 700;
+                                        height: 100%;
+                                    }
+                                    
+                                    a,
+                                    span,
+                                    a:hover,
+                                    a:active,
+                                    button {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    a,
+                                    div a:hover,
+                                    div a:active,
+                                    div a:focus,
+                                    button {
+                                        text-decoration: none;
+                                        -webkit-transition: all 0.5s ease 0s;
+                                        -moz-transition: all 0.5s ease 0s;
+                                        -ms-transition: all 0.5s ease 0s;
+                                        -o-transition: all 0.5s ease 0s;
+                                        transition: all 0.5s ease 0s;
+                                    }
+                                    
+                                    p {
+                                        margin: 0;
+                                    }
+                                    
+                                    body h1,
+                                    body h2,
+                                    body h3,
+                                    body h4,
+                                    body h5,
+                                    body h6 {
+                                        margin: 0;
+                                    }
+                                    
+                                    ul,
+                                    li {
+                                        list-style: none;
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+                                    
+                                    img {
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .cm-overflow {
+                                        overflow: hidden;
+                                        touch-action: unset;
+                                    }
+                                    
+                                    .row {
+                                        margin: 0 -15px;
+                                    }
+                                    
+                                    .container {
+                                        padding: 0 15px;
+                                    }
+                                    
+                                    .col,
+                                    [class*=col-] {
+                                        padding: 0 15px;
+                                    }
+                                    
+                                    .common_btn {
+                                        display: inline-block;
+                                        min-height: 30px;
+                                        background: #001E3B;
+                                        border-radius: 100px;
+                                        color: #fff;
+                                        padding: 7px 12px 7px 20px;
+                                    }
+                                    
+                                    .common_btn i {
+                                        display: inline-block;
+                                        margin-left: 12px;
+                                        vertical-align: middle;
+                                        font-size: 18px;
+                                        line-height: 1;
+                                        margin-top: -2px;
+                                        transition: all 0.5s ease 0s;
+                                    }
+                                    
+                                    .common_btn:hover {
+                                        background-color: #2CDA89;
+                                        ;
+                                        color: #fff;
+                                    }
+                                    
+                                    .common_btn:hover i {
+                                        transform: translateX(3px);
+                                    }
+                                    /*********************  Default-CSS  End *********************/
+                                    /*============== Header Css Start ===============*/
+                                    
+                                    header {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        padding-top: 40px;
+                                        z-index: 100;
+                                    }
+                                    
+                                    .header_block {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .menu_block ul li {
+                                        display: inline-block;
+                                        margin-right: 85px;
+                                    }
+                                    
+                                    .menu_block ul li:last-child {
+                                        margin-right: 0;
+                                    }
+                                    
+                                    .menu_block ul li a {
+                                        font-size: 15px;
+                                        color: #768391;
+                                    }
+                                    
+                                    .menu_block ul li a:hover {
+                                        color: #2CDA89;
+                                        ;
+                                    }
+                                    
+                                    .signup_btn_block {
+                                        margin-left: 93px;
+                                    }
+                                    
+                                    .signup_btn {
+                                        background: #2CDA89;
+                                        border-radius: 100px;
+                                        line-height: 1;
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                        color: #FFFFFF;
+                                        text-align: center;
+                                        display: inline-block;
+                                        padding: 10px 37px;
+                                        filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+                                        -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+                                    }
+                                    
+                                    .signup_btn:hover {
+                                        background: #001E3B;
+                                        color: #fff;
+                                    }
+                                    
+                                    .menu_wrapper {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    
+                                    .menu_toggle_btn {
+                                        display: none;
+                                    }
+                                    
+                                    .menu_toggle_btn span {
+                                        width: 25px;
+                                        height: 3px;
+                                        margin-bottom: 5px;
+                                        background-color: #444444;
+                                        border-radius: 35px;
+                                        -webkit-transition: all 0.5s ease 0s;
+                                        -moz-transition: all 0.5s ease 0s;
+                                        -ms-transition: all 0.5s ease 0s;
+                                        -o-transition: all 0.5s ease 0s;
+                                        transition: all 0.5s ease 0s;
+                                    }
+                                    
+                                    .menu_toggle_btn span:nth-child(1) {
+                                        margin-top: 5px;
+                                    }
+                                    
+                                    .open_menu .menu_toggle_btn span:nth-child(1) {
+                                        transform: rotate(45deg) translateY(2px) translateX(5px);
+                                    }
+                                    
+                                    .open_menu .menu_toggle_btn span:nth-child(2) {
+                                        opacity: 0;
+                                    }
+                                    
+                                    .open_menu .menu_toggle_btn span:nth-child(3) {
+                                        transform: rotate(-45deg) translateY(-6px) translateX(9px);
+                                    }
+                                    /*============== Header Css End ===============*/
+                                    /*============== Home Banner Css Start ===============*/
+                                    
+                                    .home_banner_section {
+                                        padding: 200px 0 115px;
+                                        position: relative;
+                                    }
+                                    
+                                    .home_banner_content {
+                                        max-width: 750px;
+                                    }
+                                    
+                                    .home_banner_title h1 {
+                                        font-size: 60px;
+                                        font-weight: 700;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                    }
+                                    
+                                    .home_banner_title h1 span {
+                                        color: #2CDA89;
+                                    }
+                                    
+                                    .home_banner_content .common_desc {
+                                        padding: 70px 0 40px;
+                                        max-width: 568px;
+                                    }
+                                    
+                                    .home_banner_content .common_desc p {
+                                        font-size: 16px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #768391;
+                                        font-weight: 500;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .contact_sale_btn {
+                                        color: #001E3B;
+                                        display: inline-block;
+                                        margin-left: 40px;
+                                    }
+                                    
+                                    .contact_sale_btn i {
+                                        display: inline-block;
+                                        margin-left: 10px;
+                                        vertical-align: middle;
+                                        font-size: 18px;
+                                        line-height: 1;
+                                        margin-top: -2px;
+                                        transition: transform 0.5s;
+                                    }
+                                    
+                                    .contact_sale_btn:hover {
+                                        color: #2CDA89;
+                                        ;
+                                    }
+                                    
+                                    .contact_sale_btn:hover i {
+                                        transform: translateX(3px);
+                                    }
+                                    
+                                    .home_banner_img {
+                                        position: absolute;
+                                        right: 0;
+                                        top: 162px;
+                                    }
+                                    
+                                    .home_banner_section::before {
+                                        content: '';
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 570px;
+                                        background-image: url(../images/home_shape_bg.png);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: center;
+                                        pointer-events: none;
+                                    }
+                                    /*============== Home Banner Css End ===============*/
+                                    /*============== Backed By Nutritionists Css Start ===============*/
+                                    
+                                    .backed_by_nutritionists_section {
+                                        width: 100%;
+                                        background: #F6F9FC;
+                                        padding: 65px 0 130px;
+                                    }
+                                    
+                                    .section_common_label p {
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        color: #0082FF;
+                                        margin-bottom: 5px;
+                                    }
+                                    
+                                    .section_common_title h1 {
+                                        font-weight: 600;
+                                        font-size: 45px;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .section_common_title h2 {
+                                        font-weight: 600;
+                                        font-size: 40px;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .backed_by_block .section_common_title h2 {
+                                        max-width: 633px;
+                                    }
+                                    
+                                    .backed_by_block .common_desc {
+                                        margin: 35px 0 30px;
+                                        display: flex;
+                                    }
+                                    
+                                    .backed_by_block .common_desc p {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 1.5;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .backed_by_block .common_desc p+p {
+                                        margin-left: 95px;
+                                    }
+                                    
+                                    .backed_by_block .common_desc p:nth-child(1) {
+                                        max-width: 485px;
+                                    }
+                                    
+                                    .backed_by_block .common_desc p:nth-child(2) {
+                                        max-width: 455px;
+                                    }
+                                    
+                                    .backed_by_block .common_desc p span {
+                                        font-weight: 600;
+                                        color: #0085FF;
+                                    }
+                                    
+                                    .backed_by_block .common_btn {
+                                        background-color: #0085FF;
+                                    }
+                                    
+                                    .backed_by_block .common_btn:hover {
+                                        background-color: #2CDA89;
+                                    }
+                                    
+                                    .backed_by_image_block {
+                                        max-width: 100%;
+                                        margin: 5% auto 2%;
+                                    }
+                                    /*============== Backed By Nutritionists Css End ===============*/
+                                    /*============== The Best And Css Start ===============*/
+                                    
+                                    .the_best_and_section {
+                                        padding: 130px 0;
+                                        position: relative;
+                                        margin-top: -100px;
+                                    }
+                                    
+                                    .the_best_and_section .container {
+                                        position: relative;
+                                    }
+                                    
+                                    .the_best_and_section::before {
+                                        content: '';
+                                        position: absolute;
+                                        left: 0;
+                                        right: 0;
+                                        top: 0;
+                                        bottom: 0;
+                                        background: #0A2540;
+                                        pointer-events: none;
+                                        transform: skew(0deg, -6deg);
+                                        -webkit-transform: skew(0deg, -6deg);
+                                    }
+                                    
+                                    .the_best_and_content .section_common_title h2 {
+                                        color: #fff;
+                                    }
+                                    
+                                    .the_best_and_content .common_desc {
+                                        margin: 40px 0 30px;
+                                        max-width: 425px;
+                                    }
+                                    
+                                    .the_best_and_content .common_desc p {
+                                        font-family: SF-Pro-Regular;
+                                        color: #fff;
+                                        line-height: 1.5;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .the_best_and_content .common_desc p+p {
+                                        margin-top: 15px;
+                                    }
+                                    
+                                    .the_best_and_content .common_btn {
+                                        background: #0085FF;
+                                    }
+                                    
+                                    .the_best_and_content .common_btn:hover {
+                                        background: #2CDA89;
+                                    }
+                                    
+                                    .tools_stack_block {
+                                        padding-top: 80px;
+                                    }
+                                    
+                                    .tools_stack_block ul {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        margin: 0 -25px;
+                                        padding-right: 90px;
+                                    }
+                                    
+                                    .tools_stack_block ul li {
+                                        width: 50%;
+                                        padding: 0 25px;
+                                    }
+                                    
+                                    .tools_stack_title h4 {
+                                        color: #fff;
+                                        font-size: 15px;
+                                    }
+                                    
+                                    .tools_ic {
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .tools_ic img {
+                                        max-width: 45px;
+                                    }
+                                    
+                                    .tools_stack_content .common_desc p {
+                                        font-size: 15px;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .tools_stack_content .common_desc {
+                                        margin: 15px 0;
+                                    }
+                                    
+                                    .tools_stack_content .contact_sale_btn {
+                                        margin-left: 0;
+                                        color: #0085FF;
+                                        ;
+                                    }
+                                    
+                                    .tools_stack_content .contact_sale_btn i {
+                                        margin-top: -1px;
+                                    }
+                                    
+                                    .tools_stack_content .contact_sale_btn:hover {
+                                        color: #2CDA89;
+                                        ;
+                                    }
+                                    
+                                    .eaditor_image img {
+                                        max-width: 120%;
+                                    }
+                                    
+                                    .the_best_and_content {
+                                        padding-top: 30px;
+                                    }
+                                    /*============== The Best And Css End ===============*/
+                                    /* Multi Service Section Start */
+                                    
+                                    .multi_service_section {
+                                        padding: 150px 0 0;
+                                    }
+                                    
+                                    .multi_service_titles p.info {
+                                        color: #768391;
+                                        font-weight: 400;
+                                        padding-top: 27px;
+                                        padding-bottom: 35px;
+                                        font-family: SF-Pro-Regular;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .multi_service_left .content_block {
+                                        padding-top: 50px;
+                                    }
+                                    
+                                    .easy_use_block+.easy_use_block {
+                                        padding-top: 23px;
+                                    }
+                                    
+                                    .easy_use_block {
+                                        max-width: 465px;
+                                    }
+                                    
+                                    .easy_use_title {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    
+                                    .easy_use_title .easy_use_heading h5 {
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                        color: #001E3B;
+                                        padding-left: 10px;
+                                    }
+                                    
+                                    .easy_use_paragraph p {
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                        color: #768391;
+                                        font-family: SF-Pro-Regular;
+                                        padding-top: 15px;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .multi_service_slider_outer {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                    
+                                    .multi_service_slider_outer .owl-carousel .owl-stage {
+                                        padding-left: 0 !important;
+                                    }
+                                    
+                                    .multi_service_itembox {
+                                        padding: 5px;
+                                        border-radius: 7px;
+                                        background: #F6F9FC;
+                                    }
+                                    
+                                    .multi_service_left {
+                                        width: 594px;
+                                        padding-right: 65px;
+                                    }
+                                    
+                                    .tab_block_btn {
+                                        padding-top: 36px;
+                                    }
+                                    
+                                    .tab_block_btn .common_btn i {
+                                        margin-left: 20px;
+                                    }
+                                    
+                                    .content_image_block {
+                                        margin-top: 110px;
+                                        width: calc(100% - 594px);
+                                    }
+                                    
+                                    .multi_service_itembox .cycle_boy_imag {
+                                        width: 78px;
+                                        height: 78px;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .multi_service_itembox .cycle_boy_imag img {
+                                        width: unset;
+                                    }
+                                    
+                                    .multi_service_itembox .cycle_boy_text h4 {
+                                        font-size: 13px;
+                                        margin-top: 10%;
+                                        font-family: SF-Pro-Bold;
+                                        color: #000;
+                                        text-align: center;
+                                    }
+                                    
+                                    .content_image_block .slider_image {
+                                        height: 500px;
+                                        margin: 0 auto;
+                                        background-color: #FFFFFF;
+                                        display: none;
+                                    }
+                                    
+                                    .content_image_block .slider_image img {
+                                        max-width: 100%;
+                                    }
+                                    
+                                    .content_image_block .slider_image.active {
+                                        display: block;
+                                    }
+                                    
+                                    .multi_service_slider .item {
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .multi_service_slider .item.open .cycle_boy_text h4 {
+                                        color: #fff;
+                                    }
+                                    
+                                    .multi_service_slider .item.open .multi_service_itembox {
+                                        background-color: #0082FF;
+                                    }
+                                    
+                                    .content_block .tab {
+                                        display: none;
+                                    }
+                                    
+                                    .content_block .tab.active {
+                                        display: block;
+                                    }
+                                    /* Multi Service Section End */
+                                    /* footer Section Start */
+                                    
+                                    .footer_wrapper {
+                                        padding-top: 195px;
+                                        padding-bottom: 60px;
+                                        position: relative;
+                                        background-color: #F4FDF9;
+                                    }
+                                    
+                                    .footer_wrapper::before {
+                                        left: 0;
+                                        top: -90px;
+                                        width: 100%;
+                                        height: 170px;
+                                        content: '';
+                                        position: absolute;
+                                        pointer-events: none;
+                                        background-color: #fff;
+                                        transform: skew(0deg, -5deg);
+                                    }
+                                    
+                                    .footer_block {
+                                        display: flex;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .footer_right {
+                                        display: flex;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .footer_col+.footer_col {
+                                        margin-left: 46px;
+                                    }
+                                    
+                                    .footer_col h3 {
+                                        font-family: SF-Pro-Bold;
+                                        font-size: 16px;
+                                        color: #001E3B;
+                                        padding-bottom: 12px;
+                                    }
+                                    
+                                    .footer_col ul li {
+                                        padding-bottom: 10px;
+                                    }
+                                    
+                                    .footer_col ul li:last-child {
+                                        padding-bottom: 0px;
+                                    }
+                                    
+                                    .footer_col ul li a {
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .footer_col ul li a:hover {
+                                        color: #2CDA89;
+                                    }
+                                    
+                                    .copyright p {
+                                        color: #001E3B;
+                                        font-weight: 400;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    /* footer Section End */
+                                    /*============ SignUp Page Start ============*/
+                                    
+                                    .signup_section {
+                                        padding: 96px 0 0;
+                                    }
+                                    
+                                    .signup_block {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        position: relative;
+                                        z-index: 1;
+                                        margin-bottom: -110px;
+                                    }
+                                    
+                                    .signup_col_left {
+                                        width: calc(100% - 510px);
+                                    }
+                                    
+                                    .signup_col_right {
+                                        width: 510px;
+                                    }
+                                    
+                                    .signup_content_block {
+                                        max-width: 480px;
+                                    }
+                                    
+                                    .signup_desc {
+                                        margin-top: 65px;
+                                    }
+                                    
+                                    .signup_desc ul li {
+                                        position: relative;
+                                        padding-left: 35px;
+                                    }
+                                    
+                                    .signup_desc ul li+li {
+                                        margin-top: 25px;
+                                    }
+                                    
+                                    .signup_desc ul li::before {
+                                        content: '';
+                                        position: absolute;
+                                        top: -1px;
+                                        left: 0;
+                                        background-image: url(../images/sup_check_ic.svg);
+                                        background-repeat: no-repeat;
+                                        background-size: contain;
+                                        width: 22px;
+                                        height: 22px;
+                                    }
+                                    
+                                    .signup_info h3 {
+                                        font-weight: 700;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .signup_info p {
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #001E3B;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .common_form_box {
+                                        width: 100%;
+                                        padding: 45px 45px 30px;
+                                        background: #FFFFFF;
+                                        box-shadow: 0px 0px 27px 4px rgba(0, 0, 0, 0.1);
+                                        border-radius: 7px;
+                                    }
+                                    
+                                    .sup_common_title h3 {
+                                        color: #001E3B;
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        font-family: SF-Pro-Bold;
+                                        margin-bottom: 40px;
+                                    }
+                                    
+                                    .common_input_filed p {
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .common_input_filed {
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    .common_input_filed input {
+                                        width: 100%;
+                                        min-height: 44px;
+                                        border: 1px solid #C4C4C4;
+                                        border-radius: 6px;
+                                        padding: 15px;
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #001E3B;
+                                        appearance: none;
+                                        -webkit-appearance: none;
+                                    }
+                                    
+                                    .common_input_filed input:focus {
+                                        background: #F4FDF9;
+                                        outline: 0;
+                                    }
+                                    
+                                    .show_hide_eye {
+                                        position: relative;
+                                    }
+                                    
+                                    .show_hide_eye input {
+                                        padding-right: 50px;
+                                    }
+                                    
+                                    .show_passoword {
+                                        position: absolute;
+                                        top: 51px;
+                                        right: 15px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .common_checkbox input {
+                                        display: none;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .common_checkbox label {
+                                        position: relative;
+                                        cursor: pointer;
+                                        font-size: 9px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                        padding-left: 30px;
+                                    }
+                                    
+                                    .common_checkbox label:before {
+                                        content: '';
+                                        -webkit-appearance: none;
+                                        background-color: transparent;
+                                        border: 1px solid #C4C4C4;
+                                        box-sizing: border-box;
+                                        border-radius: 2px;
+                                        padding: 8px;
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        cursor: pointer;
+                                        position: absolute;
+                                        left: 0;
+                                    }
+                                    
+                                    .common_checkbox input:checked+label::before {
+                                        background: #2CDA89;
+                                        border-color: #2CDA89;
+                                    }
+                                    
+                                    .common_checkbox input:checked+label:after {
+                                        content: '';
+                                        display: block;
+                                        position: absolute;
+                                        top: 3px;
+                                        left: 6px;
+                                        width: 6px;
+                                        height: 10px;
+                                        border: solid #fff;
+                                        border-width: 0 2px 2px 0;
+                                        transform: rotate(45deg);
+                                        border-radius: 1px;
+                                    }
+                                    
+                                    .create_btn {
+                                        margin: 34px 0 30px;
+                                    }
+                                    
+                                    .create_btn button {
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #FFF;
+                                        background: #2CDA89;
+                                        border-radius: 6px;
+                                        border: 0;
+                                        width: 100%;
+                                        display: inline-block;
+                                        text-align: center;
+                                        padding: 13px 15px;
+                                    }
+                                    
+                                    .create_btn button.disable {
+                                        opacity: 0.6;
+                                    }
+                                    
+                                    button:hover {
+                                        background: #001E3B;
+                                    }
+                                    
+                                    .have_account_note {
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .have_account_note p a {
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 600;
+                                        color: #2CDA89;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .have_account_note p a:hover {
+                                        color: #001E3B;
+                                    }
+                                    /*============ SignUp Page End ============*/
+                                    /*============ SignIn Page Satrt ============*/
+                                    
+                                    .signin_section {
+                                        padding: 68px 0 0;
+                                    }
+                                    
+                                    .signin_block {
+                                        position: relative;
+                                        z-index: 1;
+                                        margin-bottom: -105px;
+                                    }
+                                    
+                                    .signin_box {
+                                        max-width: 577px;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .signin_box .sup_logo {
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    .signin_box .common_input_filed {
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .signin_box .common_checkbox label {
+                                        font-size: 13px;
+                                        font-family: SF-Pro-Bold;
+                                        margin-top: 1px;
+                                    }
+                                    
+                                    .signin_box .common_checkbox label:before {
+                                        top: -2px;
+                                    }
+                                    
+                                    .signin_box .common_checkbox input:checked+label:after {
+                                        top: 1px;
+                                    }
+                                    
+                                    .signin_box .create_btn {
+                                        margin: 30px 0;
+                                    }
+                                    
+                                    .forgot_password_label {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    .forgot_password_label a {
+                                        color: #2CDA89;
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        display: inline-block;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .forgot_password_label a:hover {
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .forgot_pass_box .sup_common_title h3 {
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .forgot_pass_box .sup_common_title p {
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #001E3B;
+                                        margin-bottom: 25px;
+                                    }
+                                    
+                                    .forgot_pass_box .have_account_note>div a {
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 600;
+                                        color: #2CDA89;
+                                        font-weight: 600;
+                                        display: inline-block;
+                                        text-align: center;
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    .forgot_pass_box .have_account_note a:hover {
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .forgot_pass_box .create_btn {
+                                        margin-bottom: 25px;
+                                    }
+                                    
+                                    .forgot_password_page .signin_block {
+                                        margin-bottom: -70px;
+                                    }
+                                    
+                                    .tahnks_message_box,
+                                    .d_hide {
+                                        display: none;
+                                    }
+                                    
+                                    .tahnks_message_box.d_show {
+                                        display: block;
+                                    }
+                                    
+                                    .tahnks_message_box h3 {
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .tahnks_message_box p {
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .tahnks_message_box p a {
+                                        font-weight: 600;
+                                        font-family: SF-Pro-Bold;
+                                        color: #2CDA89;
+                                    }
+                                    
+                                    .tahnks_message_box p a:hover {
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .forgot_pass_box .sup_logo {
+                                        margin-bottom: 40px;
+                                    }
+                                    
+                                    .forgot_password_page .main_content {
+                                        min-height: 53.5vh;
+                                    }
+                                    /*============ SignIn Page End ============*/
+                                    /*============ Documentation Page Start ============*/
+                                    
+                                    .header_inner_wrap {
+                                        display: flex;
+                                        align-items: center;
+                                        background-color: #F6F9FC;
+                                        justify-content: space-between;
+                                        padding: 20px 80px 20px 40px;
+                                        border-bottom: 1.25px solid #dddddd;
+                                    }
+                                    
+                                    .hi_logo_hold {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    
+                                    .hi_logo_hold a {
+                                        font-weight: 600;
+                                        font-size: 18px;
+                                        color: #2CDA89;
+                                        font-family: SF-Pro-Bold;
+                                    }
+                                    
+                                    .hi_logo_hold a img {
+                                        margin-right: 5px;
+                                    }
+                                    
+                                    .hi_logo_hold a span {
+                                        display: inline-block;
+                                        margin-bottom: -17px;
+                                        vertical-align: middle;
+                                    }
+                                    
+                                    .hi_btn_wrap>a {
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .hi_btn_wrap a i {
+                                        display: none;
+                                    }
+                                    
+                                    .hi_btn_wrap>a:hover {
+                                        color: #2CDA89;
+                                        ;
+                                    }
+                                    
+                                    .hi_btn_wrap .common_btn {
+                                        padding: 7px 40px;
+                                        background: #2CDA89;
+                                        color: #fff;
+                                        margin-left: 35px;
+                                    }
+                                    
+                                    .hi_btn_wrap .common_btn:hover {
+                                        background-color: #001E3B;
+                                        ;
+                                        color: #fff;
+                                    }
+                                    
+                                    .hi_btn_wrap a.common_btn:hover i {
+                                        transform: unset;
+                                    }
+                                    
+                                    .documentation_section {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        position: relative;
+                                        z-index: 10;
+                                        margin-bottom: -140px;
+                                    }
+                                    
+                                    .docu_col_left {
+                                        width: 250px;
+                                    }
+                                    
+                                    .docu_col_right {
+                                        width: calc(100% - 250px);
+                                    }
+                                    
+                                    .docu_mobile_sidebar_trigger {
+                                        display: none;
+                                        position: absolute;
+                                        left: -12px;
+                                        top: 12px;
+                                        width: 35px;
+                                        height: 35px;
+                                        background-color: #2CDA89;
+                                        color: #fff;
+                                        font-size: 25px;
+                                        z-index: 1;
+                                        border-radius: 50%;
+                                        padding-left: 10px;
+                                        transition: all 0.5s ease 0s;
+                                        z-index: 110;
+                                        box-shadow: 0 0 7px rgb(0 0 0 / 30%);
+                                    }
+                                    
+                                    .open_siderbar .docu_mobile_sidebar_trigger {
+                                        padding-left: 0px;
+                                        left: 232px;
+                                    }
+                                    
+                                    .docu_mobile_sidebar_trigger i {
+                                        display: inline-block;
+                                        transition: all 0.5s ease 0s;
+                                    }
+                                    
+                                    .open_siderbar .docu_mobile_sidebar_trigger i {
+                                        transform: rotate(180deg);
+                                    }
+                                    
+                                    .doc_sidebar_block {
+                                        background: #ffffff;
+                                        padding: 45px 40px;
+                                        border-right: 1.25px solid #dddddd;
+                                        height: 100%;
+                                        position: relative;
+                                    }
+                                    
+                                    .doc_sidebar_block::before {
+                                        content: '';
+                                        position: absolute;
+                                        left: 0;
+                                        height: 30px;
+                                    }
+                                    
+                                    .doc_sidebar_ul>ul>li+li {
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .doc_sidebar_ul>ul>li>a {
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                    }
+                                    
+                                    .doc_sidebar_ul ul li a:hover,
+                                    .doc_sidebar_ul>ul>li.active>a {
+                                        color: #2CDA89;
+                                    }
+                                    
+                                    .doc_inner_list {
+                                        padding-left: 10px;
+                                        margin-top: 10px;
+                                    }
+                                    
+                                    .doc_inner_list li button {
+                                        font-weight: 400;
+                                        font-size: 17px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #001E3B;
+                                        padding: 0;
+                                    }
+                                    
+                                    .nav-pills .nav-link.active,
+                                    .nav-pills .show>.nav-link,
+                                    .doc_inner_list li button:hover {
+                                        color: #2CDA89;
+                                        ;
+                                        background-color: transparent;
+                                    }
+                                    
+                                    .doc_inner_list li+li {
+                                        margin-top: 10px;
+                                    }
+                                    
+                                    .doc_common_content_wrap {
+                                        padding: 50px 80px 260px;
+                                    }
+                                    
+                                    .doc_common_title h1 {
+                                        font-weight: 600;
+                                        font-size: 40px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .doc_inner_common_title h3 {
+                                        font-weight: 600;
+                                        font-size: 30px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .doc_inner_sec_title h4 {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .developer_content .common_desc p {
+                                        font-weight: 400;
+                                        font-size: 17px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #768391;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .dev_app_box {
+                                        margin: 40px 0;
+                                        background: #F8F8F8;
+                                        border-radius: 6px;
+                                        overflow: hidden;
+                                    }
+                                    
+                                    .dev_app_title {
+                                        background: #001E3B;
+                                        border-radius: 6px 6px 0px 0px;
+                                        padding: 8px 30px;
+                                    }
+                                    
+                                    .dev_app_title h3 {
+                                        font-weight: 600;
+                                        font-size: 17px;
+                                        color: #fff;
+                                        font-family: SF-Pro-Bold;
+                                    }
+                                    
+                                    .app_code_info {
+                                        padding: 20px 30px;
+                                    }
+                                    
+                                    .app_code_info p {
+                                        font-weight: 400;
+                                        font-size: 17px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #000000;
+                                        line-height: 1.5;
+                                    }
+                                    
+                                    .doc_green_note {
+                                        background: #D4EDDA;
+                                        border-radius: 6px;
+                                        padding: 10px 50px 10px 20px;
+                                    }
+                                    
+                                    .doc_green_note p {
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                        line-height: 1.5;
+                                        color: #008044;
+                                    }
+                                    
+                                    .doc_green_note p span {
+                                        font-weight: 600;
+                                        font-family: SF-Pro-Bold;
+                                    }
+                                    
+                                    .doc_delete_url_box {
+                                        margin: 50px 0 25px;
+                                        background: #F8F8F8;
+                                        border-radius: 6px;
+                                        padding: 10px;
+                                        position: relative;
+                                        padding-left: 160px;
+                                    }
+                                    
+                                    .doc_delete_url_box button {
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                        height: 100%;
+                                        background: #001E3B;
+                                        border-radius: 6px 0px 0px 6px;
+                                        min-width: 110px;
+                                        text-align: center;
+                                        border: 0;
+                                        padding: 10px;
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #fff;
+                                    }
+                                    
+                                    .doc_delete_url_box p {
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        word-break: break-all;
+                                        display: inline-block;
+                                    }
+                                    
+                                    .url_argument_title h3 {
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        color: #001E3B;
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .url_argument_table_block table tbody td,
+                                    .curl_table_block tbody td {
+                                        border-right: 0;
+                                        border-left-width: 0;
+                                        padding: 10px 20px;
+                                        white-space: nowrap;
+                                        font-size: 15px;
+                                        color: #001E3B;
+                                        font-weight: 400;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .url_argument_table_block table,
+                                    .curl_table_block table {
+                                        border: 1px solid #979797;
+                                        margin-bottom: 0;
+                                    }
+                                    
+                                    .curl_table_block {
+                                        padding-top: 70px;
+                                    }
+                                    
+                                    .curl_table_block thead th {
+                                        padding: 10px 35px;
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                        border-left-width: 0;
+                                        border-right: 0;
+                                    }
+                                    
+                                    .curl_table_block thead th:first-child {
+                                        width: 100px;
+                                        background: #C4C4C4;
+                                        border: 1px solid #979797;
+                                        border-bottom: 0;
+                                    }
+                                    
+                                    .curl_table_block tbody tr {
+                                        border-width: 0;
+                                        border-top: 0;
+                                    }
+                                    
+                                    .curl_table_block tbody td p a {
+                                        font-size: 15px;
+                                        color: #1E6EBB;
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .curl_table_block tbody td p a:hover {
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .td_delete {
+                                        font-size: 15px;
+                                        color: #001E3B;
+                                        font-weight: 400;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .td_delete:hover {
+                                        color: #1E6EBB;
+                                        ;
+                                    }
+                                    /*============ Documentation Page End ============*/
+                                    /*============ Price Page Start ============*/
+                                    
+                                    .price_plan_section {
+                                        margin-top: -100px;
+                                        padding-bottom: 180px;
+                                    }
+                                    
+                                    .price_hero_banner_section {
+                                        padding: 175px 0 200px;
+                                        position: relative;
+                                        background: #F6F9FC;
+                                    }
+                                    
+                                    .price_banner_content {
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                    
+                                    .price_plan_block {
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                    
+                                    .price_banner_content p {
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        font-family: SF-Pro-Bold;
+                                        ;
+                                        color: #0082FF;
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .price_banner_content h1 {
+                                        font-weight: 600;
+                                        font-size: 40px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .price_banner_content h1 span {
+                                        display: block;
+                                        color: #768391;
+                                    }
+                                    
+                                    .price_shape_green {
+                                        position: absolute;
+                                        bottom: -200px;
+                                        left: 0;
+                                        width: 100%;
+                                    }
+                                    
+                                    .price_plan_block .row {
+                                        margin: 0 -22px;
+                                    }
+                                    
+                                    .price_plan_block .row>* {
+                                        padding: 0 22px;
+                                    }
+                                    
+                                    .price_plan_box {
+                                        background: #F6F9FC;
+                                        /* border: 3px solid #2CDA89;*/
+                                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                                        border-radius: 12px;
+                                        padding: 30px 35px 25px;
+                                    }
+                                    
+                                    .price_common_title h3 {
+                                        text-align: center;
+                                        font-weight: 600;
+                                        font-size: 25px;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        margin-bottom: 15px;
+                                        display: inline-block;
+                                        position: relative;
+                                    }
+                                    
+                                    .price_common_label p {
+                                        text-align: center;
+                                        font-weight: 400;
+                                        font-size: 17px;
+                                        color: #768391;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .price_common_label p span {
+                                        color: #B6C7D2;
+                                        font-weight: 600;
+                                        font-family: SF-Pro-Bold;
+                                        margin-left: 15px;
+                                        display: inline-block;
+                                    }
+                                    
+                                    .price_plan_info {
+                                        margin-top: 30px;
+                                    }
+                                    
+                                    .price_plan_info ul li {
+                                        position: relative;
+                                        padding-left: 35px;
+                                    }
+                                    
+                                    .price_plan_info ul li::before {
+                                        content: '';
+                                        position: absolute;
+                                        top: -1px;
+                                        left: 0;
+                                        background-image: url(../images/sup_check_ic.svg);
+                                        background-repeat: no-repeat;
+                                        background-size: contain;
+                                        width: 22px;
+                                        height: 22px;
+                                    }
+                                    
+                                    .price_plan_info ul li.close_check_ic::before {
+                                        background-image: url(../images/close_check_ic.svg);
+                                    }
+                                    
+                                    .price_plan_info ul li+li {
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .price_desc_paln h4 {
+                                        font-weight: 700;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Bold;
+                                        margin-bottom: 5px;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .price_desc_paln p {
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        font-family: SF-Pro-Regular;
+                                        color: #001E3B;
+                                    }
+                                    
+                                    .price_plan_btn a {
+                                        display: inline-block;
+                                        background: #B6C7D2;
+                                        border-radius: 6px;
+                                        max-width: 265px;
+                                        width: 100%;
+                                        margin: 20px auto 0;
+                                        border: 0;
+                                        font-weight: 600;
+                                        font-size: 17px;
+                                        color: #FFFFFF;
+                                        padding: 11px 15px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .price_plan_btn a:hover,
+                                    .launch_plan_box .price_plan_btn a:hover,
+                                    .enterprise_plan_box .price_plan_btn a:hover {
+                                        background: #001E3B;
+                                    }
+                                    
+                                    .launch_plan_box {
+                                        border: 3px solid #2CDA89;
+                                    }
+                                    
+                                    .launch_plan_box .price_plan_btn a {
+                                        background: #0082FF;
+                                    }
+                                    
+                                    .price_common_title {
+                                        text-align: center;
+                                    }
+                                    
+                                    .price_common_title h3 img {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        position: absolute;
+                                        left: -60px;
+                                        top: -15px;
+                                    }
+                                    
+                                    .price_common_label p span.pl_span {
+                                        margin-left: 0;
+                                        color: #768391;
+                                    }
+                                    
+                                    .enterprise_plan_box .price_plan_btn a {
+                                        background: #2CDA89;
+                                    }
+                                    
+                                    .faq_section {
+                                        position: relative;
+                                        z-index: 1;
+                                        padding-bottom: 30px;
+                                    }
+                                    
+                                    .faq_content .common_desc {
+                                        margin-top: 15px;
+                                    }
+                                    
+                                    .faq_content .common_desc p {
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        color: #768391;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .faq_accordion_block {
+                                        padding: 45px 25px 0;
+                                    }
+                                    
+                                    .faq_accordion_block .accordion {
+                                        margin: 0 -19px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                    }
+                                    
+                                    .faq_accordion_block .accordion .accordion-item {
+                                        width: 50%;
+                                        padding: 0 19px;
+                                        background-color: transparent;
+                                        border: 0;
+                                        border-radius: 0;
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    .accordion_box {
+                                        background: #FFFFFF;
+                                        box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.1);
+                                        border-radius: 7px;
+                                    }
+                                    
+                                    .accordion_box .accordion-button.collapsed {
+                                        padding: 18px 25px;
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                        font-family: SF-Pro-Bold;
+                                        color: #001E3B;
+                                        background-color: transparent;
+                                    }
+                                    
+                                    .accordion_box .accordion-button {
+                                        background-color: transparent;
+                                        border: 0;
+                                        box-shadow: none;
+                                        color: #001E3B;
+                                        padding: 18px 25px;
+                                    }
+                                    
+                                    .accordion-item:last-of-type .accordion-button.collapsed,
+                                    .accordion-item:first-of-type .accordion-button {
+                                        border-radius: 0;
+                                    }
+                                    
+                                    .accordion_box button:hover {
+                                        background: transparent
+                                    }
+                                    
+                                    .accordion_box button:focus {
+                                        outline: 0;
+                                        box-shadow: none;
+                                    }
+                                    
+                                    .faq_common_desc p {
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        color: #768391;
+                                    }
+                                    
+                                    .accordion-body {
+                                        padding-top: 0;
+                                    }
+                                    
+                                    .accordion-button::after {
+                                        background-size: 1.1rem;
+                                        width: 1rem;
+                                        height: 1rem;
+                                        transform: rotate(-90deg);
+                                    }
+                                    
+                                    .accordion-button:not(.collapsed)::after {
+                                        filter: brightness(0) invert(0);
+                                        -webkit-filter: brightness(0) invert(0);
+                                    }
+                                    /*============ Price Page End ============*/
+                                    /*============ Use Case Page Start ============*/
+                                    
+                                    .use_case_page .home_banner_section::before {
+                                        background-image: url(../images/user_case_bg.png);
+                                        height: 650px;
+                                    }
+                                    
+                                    .use_case_page .footer_wrapper {
+                                        background: #F6F9FC;
+                                    }
+                                    
+                                    .use_case_page .home_banner_section {
+                                        padding: 170px 0;
+                                    }
+                                    
+                                    .uc_home_banner_content {
+                                        max-width: 570px;
+                                        position: relative;
+                                    }
+                                    
+                                    .uc_home_banner_content .section_common_label {
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .privacy_home_banner_content {
+                                        position: relative;
+                                    }
+                                    
+                                    .privacy_home_banner_content .section_common_label {
+                                        margin-bottom: 20px;
+                                    }
+                                    
+                                    .uc_common_desc {
+                                        margin-top: 16px;
+                                    }
+                                    
+                                    .uc_common_desc p {
+                                        font-size: 16px;
+                                        line-height: 1.5;
+                                        color: #768391;
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .uc_common_desc h1 {
+                                        font-size: 50px;
+                                        line-height: 1.5;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .uc_common_desc h2 {
+                                        font-size: 35px;
+                                        line-height: 1.5;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .uc_common_desc h3 {
+                                        font-size: 25px;
+                                        line-height: 1.5;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .uc_common_desc h4 {
+                                        font-size: 20px;
+                                        line-height: 1.5;
+                                        color: #001E3B;
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .uc_common_desc ul {
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                        flex-wrap: wrap;
+                                        margin: 0 -15px;
+                                        padding-left: 50px;
+                                    }
+                                    
+                                    .uc_common_desc ul span {
+                                        color: #0082FF;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .uc_discover_content h3 {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        color: #001E3B;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .uc_discover_section {
+                                        position: relative;
+                                        z-index: 10;
+                                        margin: -120px 0 -160px;
+                                    }
+                                    
+                                    .uc_discover_box {
+                                        background: #FFFFFF;
+                                        box-shadow: 0px 0px 27px 4px rgba(0, 0, 0, 0.1);
+                                        border-radius: 7px;
+                                        overflow: hidden;
+                                        margin-bottom: 50px;
+                                    }
+                                    
+                                    .uc_discover_content h3 {
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        color: #001E3B;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .uc_discover_content p {
+                                        font-size: 16px;
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .uc_discover_content {
+                                        padding: 25px;
+                                        position: relative;
+                                    }
+                                    
+                                    .uc_discover_content .section_btn a {
+                                        display: flex;
+                                        max-width: 150px;
+                                        width: 100%;
+                                        margin-left: auto;
+                                        background: #0082FF;
+                                        border-radius: 6px;
+                                        font-weight: 600;
+                                        font-size: 15px;
+                                        color: #fff;
+                                        text-align: center;
+                                        padding: 10px;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    
+                                    .uc_discover_content .section_btn a:hover {
+                                        background: #001E3B;
+                                        color: #fff;
+                                    }
+                                    
+                                    .uc_discover_img {
+                                        position: relative;
+                                        min-height: 220px;
+                                        max-height: 200px;
+                                    }
+                                    
+                                    .uc_discover_img img {
+                                        width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                    }
+                                    
+                                    .uc_discover_img::before {
+                                        content: '';
+                                        position: absolute;
+                                        background-image: url(../images/uc_discover_shape.png);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        left: 0;
+                                        bottom: -80px;
+                                        min-height: 125px;
+                                        width: 100%;
+                                        pointer-events: none;
+                                    }
+                                    
+                                    .uc_discover_block .row {
+                                        margin: 0 -25px;
+                                    }
+                                    
+                                    .uc_discover_block .row>* {
+                                        padding: 0 25px;
+                                    }
+                                    /*============ Use Case Page End ============*/
+                                    /*============ Use Case Delivery Page Start ============*/
+                                    
+                                    .use_case_delivery_page .home_banner_section::before {
+                                        background-image: url(../images/user_case_bg.png);
+                                        height: 585px;
+                                    }
+                                    
+                                    .use_case_delivery_page .footer_wrapper {
+                                        background: transparent;
+                                    }
+                                    
+                                    .use_case_delivery_page .home_banner_section {
+                                        padding: 170px 0 20px;
+                                    }
+                                    
+                                    .ucd_banner_content .uc_common_desc p {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .ucd_banner_content .uc_common_desc {
+                                        max-width: 500px;
+                                    }
+                                    
+                                    .ucd_banner_content .uc_common_desc p span {
+                                        font-family: SF-Pro-Bold;
+                                        font-weight: 600;
+                                        color: #0082FF;
+                                    }
+                                    
+                                    .ucd_banner_btn {
+                                        margin-top: 110px;
+                                    }
+                                    
+                                    .ucd_banner_img {
+                                        position: relative;
+                                        right: -40px;
+                                    }
+                                    
+                                    .ucd_banner_img img {
+                                        max-width: 120%;
+                                    }
+                                    
+                                    .next_generation_section {
+                                        padding: 75px 0 125px;
+                                        background: #F6F9FC;
+                                    }
+                                    
+                                    .ng_desc p {
+                                        font-family: SF-Pro-Regular;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .ng_desc p span {
+                                        font-family: SF-Pro-Bold;
+                                        color: #0082FF;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .ng_desc {
+                                        max-width: 445px;
+                                        margin: 25px 0 60px;
+                                    }
+                                    
+                                    .ng_stack_block ul {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        margin: 0 -15px;
+                                    }
+                                    
+                                    .ng_stack_block ul li {
+                                        width: 50%;
+                                        padding: 0 15px;
+                                    }
+                                    
+                                    .ng_ic {
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .ng_stack_title h4 {
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                        color: #001E3B;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .ng_stack_content .common_desc p {
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        font-family: SF-Pro-Regular;
+                                    }
+                                    
+                                    .ng_stack_content .common_desc {
+                                        max-width: 228px;
+                                    }
+                                    
+                                    .ng_image_block img {
+                                        max-width: 122%;
+                                    }
+                                    
+                                    .ng_image_block {
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    .future_of_nutrition_section {
+                                        margin: 70px 0;
+                                    }
+                                    
+                                    .future_nutrition_content .common_desc {
+                                        max-width: 500px;
+                                        margin: 10px 0 55px;
+                                    }
+                                    
+                                    .future_nutrition_content .common_desc p,
+                                    .easy_integration_content .common_desc p {
+                                        font-family: SF-Pro-Regular;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                    }
+                                    
+                                    .future_nutrition_content .common_desc p span,
+                                    .easy_integration_content .common_desc p span {
+                                        font-family: SF-Pro-Bold;
+                                        color: #0082FF;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .future_nut_img_block img {
+                                        max-width: 120%;
+                                    }
+                                    
+                                    .fn_line_box p {
+                                        padding: 15px 20px;
+                                        box-shadow: 0px 6px 10px rgba(25, 25, 46, 0.05);
+                                        border-radius: 16px;
+                                        display: inline-block;
+                                        font-weight: 600;
+                                        font-size: 16px;
+                                        color: #fff;
+                                    }
+                                    
+                                    .fn_line_box1 p {
+                                        background: #B6C7D2;
+                                    }
+                                    
+                                    .fn_line_box2 p {
+                                        background: #001E3B;
+                                    }
+                                    
+                                    .fn_line_box3 p {
+                                        background: #2CDA89;
+                                    }
+                                    
+                                    .fn_line_box4 p {
+                                        background: #0082FF;
+                                    }
+                                    
+                                    .fn_line_box5 p {
+                                        background: #2CDA89;
+                                    }
+                                    
+                                    .fn_line_box1 {
+                                        padding-left: 115px;
+                                        margin-bottom: 40px;
+                                    }
+                                    
+                                    .fn_line_box2 {
+                                        text-align: right;
+                                        padding-right: 90px;
+                                    }
+                                    
+                                    .fn_line_box3 {
+                                        margin-top: -25px;
+                                        margin-left: -70px;
+                                    }
+                                    
+                                    .fn_line_box4 {
+                                        margin: 57px 0;
+                                        padding-left: 75px;
+                                    }
+                                    
+                                    .fn_line_box5 {
+                                        text-align: right;
+                                        padding-right: 70px;
+                                    }
+                                    
+                                    .easy_integration_section {
+                                        position: relative;
+                                        z-index: 10;
+                                        margin-top: 75px;
+                                        margin-bottom: 75px;
+                                    }
+                                    
+                                    .easy_integration_content {
+                                        text-align: right;
+                                    }
+                                    
+                                    .easy_integration_content .common_desc {
+                                        max-width: 500px;
+                                        margin: 10px 0 60px auto;
+                                    }
+                                    
+                                    .ng_stack_block {
+                                        max-width: 520px;
+                                    }
+                                    
+                                    .easy_integration_img {
+                                        margin-top: 70px;
+                                    }
+                                    /*============ Use Case Delivery Page End ============*/
+                                    /*
+  font-family: SF-Pro-Regular;
+  font-family:  SF-Pro-Bold;
+  font-family:  SF-Pro-semi-Bold;
+*/
